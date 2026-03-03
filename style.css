@@ -174,7 +174,7 @@ section {
 
 
 /* Form */
-.project-start {padding:100px 8%; }
+.project-start {padding:120px 8%; }
 .form-container { max-width:700px; margin:0 auto; background:var(--card-bg); padding:30px; border-radius:25px; border: 1px solid #ffffff; }
 .form-row { display:grid; grid-template-columns: 1fr 1fr; gap:20px; }
 .input-group { margin-bottom: 20px; text-align: left; }
@@ -221,3 +221,4 @@ section {
     .nav-links li { margin: 15px 0; }
 
 }
+
