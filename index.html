@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Bicho | Turning Chaos into Intelligence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">
+                <img src="logo_used.png" alt="AI Bicho Logo" class="nav-logo-img">
+                <div class="logo-text">
+                    <span class="orange-text">AI</span>
+                    <span class="white-text">Bicho</span>
+                </div>
+            </a>
+        </div> 
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact" class="nav-btn">Start Project</a></li>
+        </ul>
+
+        <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>We Turn <span class="orange-text">Chaos</span> Into <br>Competitive Advantage.</h1>
+            <p>AIBicho processes, cleans, and transforms raw data into high-precision AI models. We don't just move data; we make it think.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn-primary">View Solutions</a>
+                <a href="#contact" class="btn-outline">Get Consultation</a>
+            </div>
+        </div>
+    </header>
+
+    
+   
+   
+   
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-right">
+    <h2>Our Data Ecosystem</h2>
+    
+    <p style="padding-top: 20px; text-align: justify; line-height: 1.8; font-style: italic;">Comprehensive data lifecycle management for modern tech startups.
+    At AIBicho, we bridge the gap between digital chaos and strategic assets. 
+    Our end-to-end management covers everything from automated pipeline engineering
+    to predictive AI deployment, ensuring your startup operates on high-fidelity intelligence.
+    We specialize in transforming fragmented, multi-source inputs into a single source of truth, allowing your engineering teams
+    to focus on innovation rather than data cleanup. By implementing robust validation protocols and scalable cloud architectures, 
+    we ensure your data infrastructure grows alongside your user base, maintaining peak performance at every stage of the startup journey.
+    </p>
+
+</div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" onclick="openModal('modal-cleaning')">
+                    <div class="icon-box"><i class="fas fa-microchip"></i></div>
+                    <h3>Data Preprocessing</h3>
+                    <p>Cleaning and normalizing disparate datasets for high-fidelity AI training.</p>
+                    <span class="view-more">View Details →</span>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100" onclick="openModal('modal-analytics')">
+                    <div class="icon-box"><i class="fas fa-chart-pie"></i></div>
+                    <h3>Data Analytics</h3>
+                    <p>Turning messy numbers into predictive growth strategies and useful insights.</p>
+                    <span class="view-more">View Details →</span>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200" onclick="openModal('modal-ds')">
+                    <div class="icon-box"><i class="fas fa-brain"></i></div>
+                    <h3>AI & Data Science</h3>
+                    <p>Custom LLMs, Satellite imagery analysis, and Computer Vision models.</p>
+                    <span class="view-more">View Details →</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    
+    
+    
+  <section id="about" class="about">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="about-text" data-aos="fade-up">
+      <h2 class="orange-text" style="padding-bottom: 20px;">Our Team</h2>
+   
+    </div>
+
+    
+   <!-- Partner Grid -->
+<div class="partner-grid">
+  <div class="partner-card" data-aos="fade-up" data-aos-delay="0">
+    <img src="circle_Dariana.png" alt="Mis Dariana">
+    <h4>Dariana Primera</h4>
+    <span class="title">Chief Executive Officer (CEO)</span>
+    <span class="subtitle">Clinical Research Coordinator, Ottawa</span>
+    
+  </div>
+
+  <div class="partner-card" data-aos="fade-up" data-aos-delay="100">
+    <img src="circle_Dr.png" alt="Dr. Juan">
+    <h4>Dr. Juan Carlos Hiedra Cobo</h4>
+    <span class="title">Strategic Lead</span>
+    <span class="subtitle">Doctor of Philosophy (PhD), University of Surrey</span>
+  </div>
+
+  <div class="partner-card" data-aos="fade-up" data-aos-delay="200">
+    <img src="circle_Jainam.png" alt="Jainam Shroff">
+    <h4>Jainam Shroff</h4>
+    <span class="title">Data Scientist</span>
+    <span class="subtitle">Master of Computer Science (MCS), University of Ottawa</span>
+  </div>
+
+  <div class="partner-card" data-aos="fade-up" data-aos-delay="300">
+    <img src="circle_aagyapal.png" alt="Aagypal">
+    <h4>Aagypal Kaur</h4>
+    <span class="title">Data Engineer</span>
+    <span class="subtitle">Master of Computer Science (MCS), Carleton University</span>
+
+  </div>
+</div>
+   
+</div>
+</section>
+
+
+<section id="contact" class="project-start">
+        <div class="form-container" data-aos="zoom-in">
+            <h2 class="orange-text">Initialize Your Project</h2>
+            <p style="color: #888; margin-bottom: 30px;">Complete the form to start your data transformation journey.</p>
+            
+            <form action="https://formspree.io/f/xaqdgdzd" method="POST"> 
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Full Name</label>
+                        <input type="text" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Business Email</label>
+                        <input type="email" name="email" placeholder="john@company.com" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Company Name</label>
+                        <input type="text" name="company" placeholder="AIBicho Tech" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Mobile Number</label>
+                        <input type="tel" name="phone" placeholder="+1 234 567 890" required>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Project Domain</label>
+                    <select name="domain">
+                        <option value="satellite">Satellite & Geospatial Analysis</option>
+                        <option value="llm">LLM & Natural Language Processing</option>
+                        <option value="vision">Computer Vision & Imagery</option>
+                        <option value="analytics">Business Intelligence & Analytics</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>Project Details</label>
+                    <textarea name="message" placeholder="Describe your data challenges..." rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn-primary full-width">Get Consultation</button>
+            </form>
+        </div>
+    </section>
+
+
+  
+   <footer style="background: #0c0c0d; border-top: 1px solid #222; padding: 40px 0; text-align: center; width: 100%; display: block;">
+    <p style="color:white; margin: 0; font-size: 0.8rem; letter-spacing: 1px; font-weight: 600;">
+        &copy; 2026 AIBicho. All rights reserved.
+    </p>
+</footer>
+
+    
+    
+    <div id="modal-cleaning" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-cleaning')">&times;</span>
+            <h2 class="orange-text">Data Preprocessing</h2>
+            <p>Refining raw data into a strategic asset:</p>
+            <ul>
+                <li><i class="fas fa-check"></i> <strong>Automated Pipelines:</strong> End-to-end data flow automation.</li>
+                <li><i class="fas fa-check"></i> <strong>Noise Removal:</strong> Identifying outliers and skew points.</li>
+                <li><i class="fas fa-check"></i> <strong>AI Imputation:</strong> Smart handling of missing values.</li>
+                <li><i class="fas fa-check"></i> <strong>Feature Engineering:</strong> Preparing data for ML readiness.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal-analytics" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-analytics')">&times;</span>
+            <h2 class="orange-text">Advanced Analytics</h2>
+            <p>Turning numbers into actionable roadmaps:</p>
+            <ul>
+                <li><i class="fas fa-check"></i> Predictive Trend Modeling</li>
+                <li><i class="fas fa-check"></i> Diagnostic Root-Cause Analysis</li>
+                <li><i class="fas fa-check"></i> Real-time Dashboard Integration</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal-ds" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-ds')">&times;</span>
+            <h2 class="orange-text">AI & Data Science</h2>
+            <p>Latest AI model development:</p>
+            <ul>
+                <li><i class="fas fa-satellite"></i> Satellite & Geospatial Analysis</li>
+                <li><i class="fas fa-robot"></i> Custom LLM Fine-tuning</li>
+                <li><i class="fas fa-eye"></i> Computer Vision Patterns</li>
+                <li><i class="fas fa-brain"></i> Real-World ML Applications</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+        function openModal(id) { document.getElementById(id).style.display = 'flex'; }
+        function closeModal(id) { document.getElementById(id).style.display = 'none'; }
+        window.onclick = function(e) { if(e.target.className === 'modal') e.target.style.display = "none"; }
+    </script>
+
+    
+    
+<script>
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+const navItems = document.querySelectorAll('.nav-links li a');  // all menu links
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
+navItems.forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');  // hide menu after clicking a link
+    });
+});
+</script>
+
+
+</body>
+</html>
