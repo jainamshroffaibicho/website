@@ -120,7 +120,7 @@ section {
 
 
 /* Services */
-.container { padding:100px 8%; }
+.container { padding:120px 8%; }
 .services-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:30px; margin-top:50px; }
 .service-card { background:var(--card-bg); padding:40px; border-radius:20px; border:1px solid #222; transition:0.4s; cursor:pointer; }
 .service-card:hover { border-color:var(--orange); transform:translateY(-10px); background: #1c1c1e; }
@@ -219,4 +219,5 @@ section {
     }
     .nav-links.active { display: flex; }
     .nav-links li { margin: 15px 0; }
+
 }
